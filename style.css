@@ -38,8 +38,8 @@ header {
 
 /* Profile photo styling */
 .profile-photo img {
-  width: 180px;   /* Ajustez la taille selon vos préférences */
-  height: 180px;
+  width: 200px;   /* Ajustez la taille selon vos préférences */
+  height: 200px;
   border-radius: 50%;
   object-fit: cover;
   border: 2px solid #fff;
@@ -99,6 +99,6 @@ section img {
 footer {
   text-align: center;
   padding: 1rem;
-  background-color: #ffa64d; /* Orange moyen */
+  background-color: #E2725B; /* Orange moyen */
   color: #fff;
 }
