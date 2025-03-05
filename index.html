@@ -50,7 +50,7 @@
     .media-container {
         display: flex;
         justify-content: space-between; /* Répartit uniformément */
-        align-items: center; /* Centre verticalement */
+        align-items: center; /* Centre les éléments verticalement */
         width: 100vw; /* Utilise toute la largeur de l'écran */
         height: 300px; /* Hauteur uniforme */
     }
@@ -58,9 +58,11 @@
     .media-container video,
     .media-container img {
         flex: 1; /* Chaque élément prend un tiers de l’espace */
-        max-width: 100%; /* Évite tout dépassement */
-        height: 100%; /* Uniformise la hauteur */
-        object-fit: fill; /* Remplit l’espace sans laisser de bordure noire */
+        height: 100%; /* Hauteur uniforme */
+        max-width: 100%; /* Évite le débordement */
+        object-fit: contain; /* Évite toute déformation et garde l’image entière */
+        display: block;
+        margin: auto;
     }
 </style>
 
