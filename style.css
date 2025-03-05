@@ -10,8 +10,9 @@ body {
 
 /* Header with banner background */
 header {
-  background: url('illustrations/banner_landscape.png') no-repeat center;
-  background-size: cover;
+  background: url('illustrations/banner_landscape.png') no-repeat top center;
+  background-size: 100% auto;
+
 }
 
 
