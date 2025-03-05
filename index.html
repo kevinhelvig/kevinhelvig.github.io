@@ -23,7 +23,6 @@
       <nav>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
-          <li><a href="#thesis">Thesis Work</a></li>
           <li><a href="#interests">Interests</a></li>
           <li><a href="#publications">Publications</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -152,16 +151,38 @@
     </ul>
 </section>
 
-      <section id="interests">
-      <h2>Interests</h2>
-      <p>In addition to my research, I enjoy using tools like Blender or Illustrator for creating infographics.</p>
-      <video autoplay loop muted playsinline>
-    <source src="illustrations/blender.mp4" type="video/mp4">
-    <source src="illustrations/blender_infographics.webm" type="video/webm">
-    Your browser does not support the video tag.
-</video>
+<style>
+    .interests-container {
+        display: flex;
+        justify-content: space-between; /* Répartit les éléments sur la largeur */
+        align-items: center; /* Centre verticalement */
+        gap: 20px; /* Espacement entre la vidéo et le GIF */
+        max-width: 100%; /* Empêche les éléments de dépasser la largeur */
+    }
 
-    </section>
+    .interests-container video,
+    .interests-container img {
+        flex: 1; /* Chaque élément prend la moitié de l'espace disponible */
+        height: 250px; /* Hauteur uniforme */
+        max-width: 100%; /* Évite le débordement */
+        object-fit: contain; /* Évite toute déformation */
+    }
+</style>
+
+<section id="interests">
+    <h2>Interests</h2>
+    <p>Deep learning and AI enthusiast - Neuro-inspired AI explorer (Spiking neural networks, reservoir computing ...) - Blender/Illustrator for scientific illustration</p>
+    
+    <div class="interests-container">
+        <img src="illustrations/realtime_penguins_goodModel.gif" alt="Trained via Autodistill + scrapped youtube videos">
+        <video autoplay loop muted playsinline>
+            <source src="illustrations/game_cube_slowed_dupl0.mp4" type="video/mp4">
+            <source src="illustrations/game_cube_slowed_dupl0.webm" type="video/webm">
+            Your browser does not support the video tag.
+        </video>
+
+    </div>
+</section>
 
     <section id="contact">
       <h2>Contact</h2>
