@@ -4,23 +4,32 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  background-color: #f4f4f4;
+  background-color: #fff5e6; /* Light warm background */
   color: #333;
 }
 
-/* Header styles */
+/* Header with banner background */
 header {
-  background-color: #333;
+  position: relative;
+  background: url('banner_landscape.jpg') no-repeat center center;
+  background-size: cover;
   color: #fff;
+}
+
+/* Overlay to ensure text readability */
+.banner-overlay {
+  background-color: rgba(255, 140, 0, 0.8); /* Semi-transparent warm orange */
   padding: 1rem;
 }
 
+/* Container for header content */
 .header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+/* Personal info styling */
 .personal-info h1,
 .personal-info p {
   margin: 0;
@@ -65,22 +74,30 @@ nav {
   font-size: 1.2rem;
 }
 
-/* Main content */
+/* Main content styles */
 main {
   padding: 1rem;
 }
 
 section {
   margin-bottom: 2rem;
-  background-color: #fff;
+  background-color: #ffe8cc; /* Light warm orange background */
   padding: 1rem;
   border-radius: 4px;
+}
+
+/* Responsive images within sections */
+section img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 1rem;
 }
 
 /* Footer styles */
 footer {
   text-align: center;
   padding: 1rem;
-  background-color: #333;
+  background-color: #ff8c00; /* Darker warm orange */
   color: #fff;
 }
