@@ -4,21 +4,22 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  background-color: #fff5e6; /* Light warm background */
+  background-color: #fff5e6; /* Fond crème très clair */
   color: #333;
 }
 
 /* Header with banner background */
 header {
   position: relative;
-  background: url('banner_landscape.jpg') no-repeat center center;
+  background: url('illustrations/banner_landscape.jpg') no-repeat center center;
   background-size: cover;
   color: #fff;
 }
 
 /* Overlay to ensure text readability */
 .banner-overlay {
-  background-color: rgba(255, 140, 0, 0.8); /* Semi-transparent warm orange */
+  /* Orange clair + transparence */
+  background-color: rgba(255, 166, 77, 0.8);
   padding: 1rem;
 }
 
@@ -37,8 +38,8 @@ header {
 
 /* Profile photo styling */
 .profile-photo img {
-  width: 180px;   /* ou la taille que vous souhaitez */
-  height: 180px;  /* identique à width si vous voulez un cercle */
+  width: 180px;   /* Ajustez la taille selon vos préférences */
+  height: 180px;
   border-radius: 50%;
   object-fit: cover;
   border: 2px solid #fff;
@@ -81,7 +82,7 @@ main {
 
 section {
   margin-bottom: 2rem;
-  background-color: #ffe8cc; /* Light warm orange background */
+  background-color: #ffe8cc; /* Fond légèrement orangé */
   padding: 1rem;
   border-radius: 4px;
 }
@@ -98,6 +99,6 @@ section img {
 footer {
   text-align: center;
   padding: 1rem;
-  background-color: #ff8c00; /* Darker warm orange */
+  background-color: #ffa64d; /* Orange moyen */
   color: #fff;
 }
