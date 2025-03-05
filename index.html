@@ -1,46 +1,63 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Dr. [Votre Nom]</title>
+  <title>Dr. [Your Name]</title>
   <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome for social icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-yH0XrW+...==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
   <header>
-    <h1>Dr. [Votre Nom]</h1>
-    <p>Chercheur en [votre domaine]</p>
+    <div class="header-container">
+      <div class="personal-info">
+        <h1>Dr. [Your Name]</h1>
+        <p>Researcher in [Your Field]</p>
+      </div>
+      <div class="profile-photo">
+        <img src="your-photo.jpg" alt="[Your Name]">
+      </div>
+    </div>
     <nav>
-      <ul>
-        <li><a href="#about">À propos</a></li>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
         <li><a href="#publications">Publications</a></li>
         <li><a href="#contact">Contact</a></li>
+      </ul>
+      <ul class="social-links">
+        <li>
+          <a href="https://scholar.google.com/citations?user=YourID" target="_blank" title="Google Scholar">
+            <i class="fas fa-graduation-cap"></i>
+          </a>
+        </li>
+        <!-- You can add more social icons here -->
       </ul>
     </nav>
   </header>
 
   <main>
     <section id="about">
-      <h2>À propos</h2>
-      <p>Bienvenue sur mon site personnel. Je travaille dans le domaine de [votre domaine] et je m'intéresse à [vos centres d'intérêt].</p>
+      <h2>About</h2>
+      <p>Welcome to my personal website. I work in [Your Field] and am interested in [Your Interests].</p>
     </section>
 
     <section id="publications">
       <h2>Publications</h2>
       <ul>
-        <li>Titre de l'article 1 - [Année]</li>
-        <li>Titre de l'article 2 - [Année]</li>
+        <li>Article Title 1 - [Year]</li>
+        <li>Article Title 2 - [Year]</li>
       </ul>
     </section>
 
     <section id="contact">
       <h2>Contact</h2>
-      <p>Vous pouvez me joindre par email à <a href="mailto:email@example.com">email@example.com</a>.</p>
+      <p>You can reach me by email at <a href="mailto:email@example.com">email@example.com</a>.</p>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 Dr. [Votre Nom]. Tous droits réservés.</p>
+    <p>&copy; 2025 Dr. [Your Name]. All rights reserved.</p>
   </footer>
 </body>
 </html>
