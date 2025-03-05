@@ -10,11 +10,10 @@ body {
 
 /* Header with banner background */
 header {
-  position: relative;
-  background: url('illustrations/banner_landscape.png') no-repeat center center;
+  background: url('illustrations/banner_landscape.jpg') no-repeat center center;
   background-size: cover;
-  color: #fff;
 }
+
 
 /* Overlay to ensure text readability */
 .banner-overlay {
