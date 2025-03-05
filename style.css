@@ -11,7 +11,7 @@ body {
 /* Header with banner background */
 header {
   background: url('illustrations/banner_landscape.png') no-repeat center center;
-  background-size: contain;
+  background-size: 100% 100%;
 }
 
 
