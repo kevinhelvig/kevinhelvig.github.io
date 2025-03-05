@@ -46,7 +46,7 @@
       <p>My name is Kevin Helvig. I'm a researcher working on AI and computer vision for robotics at ONERA. I explore the use of non-conventional imaging techniques such as thermal imaging. My PhD thesis was about the use of infrared flying-spot laser thermography coupled 
       with deep learning to identify defects on metallic surfaces, exploring the development of deep learning based sensor-fusion neural models through cross-attention approaches. </p>
       
-     <style>
+<style>
     .media-container {
         display: flex;
         justify-content: center; /* Centre les éléments horizontalement */
@@ -56,8 +56,9 @@
     
     .media-container video,
     .media-container img {
-        max-width: 30%; /* Ajuste la largeur des éléments pour qu'ils tiennent sur une ligne */
-        height: auto; /* Garde les proportions */
+        width: 300px; /* Fixe une largeur uniforme */
+        height: 200px; /* Fixe une hauteur uniforme */
+        object-fit: cover; /* Assure un recadrage propre pour éviter les distorsions */
     }
 </style>
 
@@ -73,8 +74,7 @@
         
         <img src="illustrations/Image1.gif" alt="Infrared-Visible deep learning fusion models for object detection">
     </div>
-
-    </section>
+</section>
 
    <section id="publications">
     <h2>Publications</h2>
