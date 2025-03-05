@@ -37,8 +37,8 @@ header {
 
 /* Profile photo styling */
 .profile-photo img {
-  width: 80px;
-  height: 80px;
+  width: 150px;   /* ou la taille que vous souhaitez */
+  height: 150px;  /* identique à width si vous voulez un cercle */
   border-radius: 50%;
   object-fit: cover;
   border: 2px solid #fff;
