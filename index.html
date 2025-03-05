@@ -49,15 +49,18 @@
 <style>
     .media-container {
         display: flex;
-        justify-content: center; /* Centre les éléments horizontalement */
+        justify-content: space-between; /* Répartit les éléments sur toute la largeur */
         align-items: center; /* Aligne les éléments verticalement */
-        gap: 10px; /* Espacement entre les éléments */
+        width: 100vw; /* Occupe toute la largeur de l'écran */
+        height: 300px; /* Hauteur uniforme pour tous */
+        overflow: hidden; /* Empêche le débordement */
     }
-    
+
     .media-container video,
     .media-container img {
-        width: auto; /* Fixe une largeur uniforme */
-        height: auto; /* Fixe une hauteur uniforme */
+        width: 33.33%; /* Chaque élément prend 1/3 de l'écran */
+        height: 100%; /* Hauteur uniforme */
+        object-fit: cover; /* Assure un recadrage propre */
     }
 </style>
 
@@ -74,7 +77,6 @@
         <img src="illustrations/Image1.gif" alt="Infrared-Visible deep learning fusion models for object detection">
     </div>
 </section>
-
 
    <section id="publications">
     <h2>Publications</h2>
