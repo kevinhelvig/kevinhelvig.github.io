@@ -10,7 +10,7 @@ body {
 
 /* Header with banner background */
 header {
-  background: url('illustrations/banner_landscape.png') no-repeat center center;
+  background: url('illustrations/banner_landscape.png') no-repeat center;
   background-size: cover;
 }
 
@@ -18,7 +18,7 @@ header {
 /* Overlay to ensure text readability */
 .banner-overlay {
   /* Orange clair + transparence */
-  background-color: rgba(255, 166, 77, 0.8);
+  background-color: rgba(255, 166, 77, 0.5);
   padding: 1rem;
 }
 
